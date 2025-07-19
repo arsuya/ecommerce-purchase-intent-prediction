@@ -1,7 +1,6 @@
 # Prediksi Pengunjung Berpotensi Membeli atau Tidak
 
 ## Repository Outline
-```
 1. README.md - Penjelasan gambaran umum project
 2. app.py - File utama untuk menjalankan aplikasi Streamlit dan mengatur navigasi halaman
 3. eda.py - Visualisasi eksplorasi data (EDA)
@@ -14,7 +13,6 @@
 10. url.txt - Informasi link dataset dan streamlit
 11. tipe_data.png – Deskripsi dataset
 
-```
 
 ## Problem Background
 Salah satu tantangan utama yang dihadapi oleh e-commerce adalah rendahnya konversi dari kunjungan pengguna menjadi transaksi pembelian. Meskipun situs mendapatkan banyak pengunjung setiap harinya, namun sebagian besar kunjungan tidak berakhir dengan pembelian. Oleh karena itu tim management ingin mengembangkan model machine learning prediksi purchasing intention untuk memprediksi apakah seorang pengguna cenderung akan melakukan pembelian atau tidak sehingga pengguna yang diprediksi akan membeli akan diperlakukan secara berbeda dalam strategi pemasaran
