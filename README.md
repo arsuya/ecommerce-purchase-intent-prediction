@@ -17,7 +17,7 @@
 ```
 
 ## Problem Background
-`Salah satu tantangan utama yang dihadapi oleh e-commerce lojualguebeli.com adalah rendahnya konversi dari kunjungan pengguna menjadi transaksi pembelian. Meskipun situs mendapatkan banyak pengunjung setiap harinya, namun sebagian besar kunjungan tidak berakhir dengan pembelian. Oleh karena itu tim management lojualguebeli.com ingin mengembangkan model machine learning prediksi purchasing intention untuk memprediksi apakah seorang pengguna cenderung akan melakukan pembelian atau tidak sehingga pengguna yang diprediksi akan membeli akan diperlakukan secara berbeda dalam strategi pemasaran`
+`Salah satu tantangan utama yang dihadapi oleh e-commerce adalah rendahnya konversi dari kunjungan pengguna menjadi transaksi pembelian. Meskipun situs mendapatkan banyak pengunjung setiap harinya, namun sebagian besar kunjungan tidak berakhir dengan pembelian. Oleh karena itu tim management ingin mengembangkan model machine learning prediksi purchasing intention untuk memprediksi apakah seorang pengguna cenderung akan melakukan pembelian atau tidak sehingga pengguna yang diprediksi akan membeli akan diperlakukan secara berbeda dalam strategi pemasaran`
 
 ## Project Output
 `Project ini menghasilkan sebuah model machine learning yang dapat memprediksi apakah pengunjung website akan melakukan pembelian atau tidak. Selain itu, dibangun pula dashboard interaktif menggunakan streamlit yang menampilkan hasil eksplorasi data (EDA) serta fitur input prediksi secara real-time.`
