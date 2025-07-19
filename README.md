@@ -1,38 +1,59 @@
-# Prediksi Pengunjung Berpotensi Membeli atau Tidak
+# E-Commerce Visitor Purchase Intent Prediction
 
-## Repository Outline
-1. README.md - Penjelasan gambaran umum project
-2. app.py - File utama untuk menjalankan aplikasi Streamlit dan mengatur navigasi halaman
-3. eda.py - Visualisasi eksplorasi data (EDA)
-4. home.py - Tampilan halaman awal dashboard (berisi deskripsi, tujuan, dan informasi model)
-5. prediction.py – Halaman input prediksi pembelian
-6. model_terbaik.pkl – Model machine learning terbaik yang sudah dilatih
-7. ecommerce_purchasing_intention.csv – Dataset utama
-8. P1M2_arvin_wibowo.ipynb – Notebook eksplorasi dan pelatihan model
-9. P1M2_arvin_wibowo_inf.ipynb – Notebook untuk inference/deployment
-10. url.txt - Informasi link dataset dan streamlit
-11. tipe_data.png – Deskripsi dataset
+## Repository Structure
+1. **README.md** – Project overview and documentation.  
+2. **app.py** – Main file for running the Streamlit app and managing page navigation.  
+3. **eda.py** – Exploratory Data Analysis (EDA) visualizations.  
+4. **home.py** – Dashboard home page containing project description, objectives, and model information.  
+5. **prediction.py** – Page for purchase prediction input.  
+6. **model_terbaik.pkl** – Pre-trained best machine learning model.  
+7. **ecommerce_purchasing_intention.csv** – Main dataset.  
+8. **P1M2_arvin_wibowo.ipynb** – Notebook for exploration and model training.  
+9. **P1M2_arvin_wibowo_inf.ipynb** – Notebook for inference and deployment.  
+10. **url.txt** – Dataset and Streamlit deployment links.  
+11. **tipe_data.png** – Dataset description image.  
 
+---
 
 ## Problem Background
-Salah satu tantangan utama yang dihadapi oleh e-commerce adalah rendahnya konversi dari kunjungan pengguna menjadi transaksi pembelian. Meskipun situs mendapatkan banyak pengunjung setiap harinya, namun sebagian besar kunjungan tidak berakhir dengan pembelian. Oleh karena itu tim management ingin mengembangkan model machine learning prediksi purchasing intention untuk memprediksi apakah seorang pengguna cenderung akan melakukan pembelian atau tidak sehingga pengguna yang diprediksi akan membeli akan diperlakukan secara berbeda dalam strategi pemasaran
+One of the major challenges faced by e-commerce platforms is the low conversion rate of visitors into paying customers. While websites may receive a high number of daily visitors, the majority of these visits do not result in a purchase.  
+To address this, the management team aims to develop a machine learning model to predict purchase intent. By identifying users who are likely to make a purchase, the company can implement more targeted and effective marketing strategies.
+
+---
 
 ## Project Output
-Project ini menghasilkan sebuah model machine learning yang dapat memprediksi apakah pengunjung website akan melakukan pembelian atau tidak. Selain itu, dibangun pula dashboard interaktif menggunakan streamlit yang menampilkan hasil eksplorasi data (EDA) serta fitur input prediksi secara real-time.
+This project delivers:
+- A machine learning model that predicts whether a website visitor is likely to complete a purchase.  
+- An interactive Streamlit dashboard that displays EDA results and provides a real-time purchase intent prediction feature.
+
+---
 
 ## Data
-Data yang digunakan adalah Online Shoppers Purchasing Intention Dataset dari UCI Machine Learning Repository Dataset terdiri dari 10 data bertipe numerical dan 8 data bertipe categorical. Dataset ini tidak memiliki missing value
+The dataset used is the **Online Shoppers Purchasing Intention Dataset** from the UCI Machine Learning Repository.  
+- It consists of **10 numerical** and **8 categorical features**.  
+- The dataset contains **no missing values**.
 
-## Method
-Proyek ini menggunakan pendekatan supervised learning untuk menyelesaikan masalah klasifikasi. Beberapa algoritma machine learning yang diuji antara lain KNN, SVM, Decision Tree, Random Forest, dan XGBoost. Model terbaik dipilih berdasarkan performa recall tertinggi karena fokus proyek adalah mengidentifikasi sebanyak mungkin pengunjung yang benar-benar membeli
+---
 
-## Stacks
-- **Bahasa Pemrograman**: Python
-- **Tools**: Jupyter Notebook, Visual Studio Code, Streamlit
-- **Library**: pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost, streamlit, scipy, pillow
+## Methodology
+The project adopts a **supervised learning** approach for classification. Several machine learning algorithms were evaluated, including:
+- K-Nearest Neighbors (KNN)  
+- Support Vector Machine (SVM)  
+- Decision Tree  
+- Random Forest  
+- XGBoost  
 
+The best-performing model was selected based on the **highest recall score**, as the main goal is to correctly identify as many potential buyers as possible.
 
+---
 
-## Reference
+## Tech Stack
+- **Programming Language:** Python  
+- **Tools:** Jupyter Notebook, Visual Studio Code, Streamlit  
+- **Libraries:** pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost, streamlit, scipy, pillow  
+
+---
+
+## References
 - **Dataset:** [Online Shoppers Purchasing Intention Dataset](https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset)  
-- **Deployment :** [Predict Purchase Intention](https://predict-purchase-intention.streamlit.app/)
+- **Deployment:** [Predict Purchase Intention](https://predict-purchase-intention.streamlit.app/)
